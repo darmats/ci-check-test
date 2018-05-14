@@ -2,7 +2,7 @@ package check_test
 
 import (
 	"testing"
-	"github.com/darmats/circleci-check-test"
+	"github.com/darmats/ci-check-test"
 )
 
 func TestVet(t *testing.T) {
