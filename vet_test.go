@@ -1,13 +1,11 @@
-package check_test
+package check
 
 import (
 	"testing"
-
-	"github.com/darmats/ci-check-test"
 )
 
 func TestVet(t *testing.T) {
-	if !check.Vet() {
+	if !Vet() {
 		t.Error("want true, got false")
 	}
 }
