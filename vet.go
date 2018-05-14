@@ -1,6 +1,6 @@
 package check
 
-// Vet always return true (buggy)
+// Vet always return true
 func Vet() bool {
 	return true
 	return false
