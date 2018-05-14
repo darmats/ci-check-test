@@ -4,6 +4,9 @@ go:
   - "1.9.x"
   - "1.10.x"
 
+before_install:
+  - go get -u golang.org/x/lint/golint
+
 before_script:
   - go vet ./...
   - golint ./...
