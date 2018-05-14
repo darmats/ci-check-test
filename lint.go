@@ -1,0 +1,4 @@
+package check
+
+func Lint() {
+}
